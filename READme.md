@@ -8,6 +8,7 @@ A simple web application that helps users create and visualize their weekly meal
 🗓️ Generates a full week's meal plan
 📧 Email validation
 🖨️ Printable meal plan
+![image](https://github.com/user-attachments/assets/c6200268-bd76-4d09-8c84-3c3004403ecb)
 
 🛠️ Technologies Used
 
@@ -22,6 +23,8 @@ Input meals for each category
 Click "Generate Meal Plan"
 View your personalized weekly meal plan
 Print or save your plan
+
+![image](https://github.com/user-attachments/assets/b72a5171-af12-4eb3-bc5d-e76a01e3e01f)
 
 🔍 Key Functions
 
