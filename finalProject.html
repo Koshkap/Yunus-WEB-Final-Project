@@ -1,0 +1,48 @@
+<!-- finalProject.html -->
+<!-- 12/3/2024 -->
+<!-- Yunus G WEB Final Project -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB-115 Final Project</title>
+    <!-- Head, project begins -->
+</head>
+<body>
+    <!-- Opening header and setting background color -->
+    <header style="background-color:#dff8d5;">
+        <img src="TOP.jpg" alt="Banner Image" style="width: 100%; max-height: 400px; object-fit: fill;">
+    </header>
+    <main style="padding: 20px; background-color:#dff8d5 ;">
+        <form id="mealPlanForm">
+            <h3>Personal Information</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required> <br> <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required> <br> <br>
+            <label for="goal">Goal for the Week:</label>
+            <input type="text" id="goal" name="goal" required> <br> <br>
+            <!-- Form to make your meal plan -->
+            <h3>Weekly Meal Plan</h3>
+            <div id="mealInputs">
+                <label for="Breakfast">Breakfast:</label>
+                <input type="text" id="Breakfast" name="Breakfast" required> <br><br>
+                <label for="Snack">Snack:</label>
+                <input type="text" id="Snack" name="Snack" required> <br><br>
+                <label for="Lunch">Lunch:</label>
+                <input type="text" id="Lunch" name="Lunch" required> <br><br>
+                <label for="Snack2">Snack 2:</label>
+                <input type="text" id="Snack2" name="Snack2" required> <br><br>
+                <label for="Dinner">Dinner:</label>
+                <input type="text" id="Dinner" name="Dinner" required> <br><br>
+            </div>
+            <!-- Action Buttons -->
+            <button type="button" onclick="generateMealPlan()">Generate Meal Plan</button>
+            <button type="button" onclick="clearPlanner()">Clear Planner</button>
+        </form>
+    </main>
+    <!-- Link to External JavaScript -->
+    <script src="projectJS.js"></script>
+</body>
+</html>
